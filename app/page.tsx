@@ -1,11 +1,12 @@
+import Hero from "./components/About/HeroSection"
 import NavBar from "./components/NavBar"
+import ProjectPage from "./projects/page"
 
 function Home() {
   return (
-    <div className="h-[100dvh] w-[100dvw] ">
-      <div className="">
-        
-      </div>
+    <div className="">
+        <Hero/>
+        <ProjectPage/>
     </div>
   )
 }
