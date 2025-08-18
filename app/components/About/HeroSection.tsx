@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Hero() {
   return (
-    <section className="relative h-[100dvh] flex flex-col items-center justify-center text-center bg-gradient-to-b from-gray-50 to-white px-6">
+    <section className="relative h-[70dvh] flex flex-col items-center justify-center text-center bg-gradient-to-b from-gray-50 to-white px-6">
       <div className="max-w-3xl">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Hi, I’m <span className="text-blue-600">Rohit Kumar</span>

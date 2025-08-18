@@ -43,7 +43,8 @@ function Projects() {
   ]
 
   return (
-    <div className="w-[100dvw] h-[100dvh] !p-6 h-[100dvh] overflow-y-auto" id="projects">
+    <div className="w-full md:w-[70%]  " id="projects">
+      <p className="text-center !m-4">My Projects</p>
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
       {allProjects.map((project, index) => (
         <a
