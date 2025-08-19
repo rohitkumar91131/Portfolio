@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 
 *{
@@ -19,5 +16,16 @@ body{
 
 html {
     scroll-behavior: smooth;
-  }
+}
+ 
+:root {
+    --bg: white;
+    --text: black;
+    --card-text: #4b5563;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
   

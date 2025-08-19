@@ -32,11 +32,11 @@ export default function Education() {
           {educationData.map((edu, index) => (
             <div
               key={index}
-              className="flex flex-col sm:flex-row justify-between bg-gray-50 p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="flex flex-col sm:flex-row justify-between  p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
             >
               <div>
                 <p className="font-semibold text-lg">{edu.name}</p>
-                <p className="text-gray-600">{edu.degree}</p>
+                <p style={{ color: "var(--card-text)" }}>{edu.degree}</p>
               </div>
               <p className="text-gray-400 mt-2 sm:mt-0">{edu.year}</p>
             </div>

@@ -59,7 +59,7 @@ function Projects() {
             href={project?.websiteUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 !p-3"
+            className=" shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 !p-3"
           >
             {project?.photoUrl && (
               <Image
