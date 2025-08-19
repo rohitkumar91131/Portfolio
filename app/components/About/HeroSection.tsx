@@ -22,7 +22,7 @@ export default function Hero() {
             View My Work
           </Link>
           <Link
-            href="/contact"
+            href="/#about"
             className="!p-2 border border-gray-400 text-gray-800 rounded-xl hover:bg-gray-100 transition"
           >
             Contact Me

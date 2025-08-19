@@ -4,9 +4,9 @@ import { Linkedin, Github, Mail, Phone } from "lucide-react"
 
 export default function ContactCard() {
   return (
-    <div className="w-full md:w-[70%] h-[50dvh] flex flex-col ">
+    <div className="w-full md:w-[70%] h-[50dvh] flex flex-col text-center sm:text-left">
       <h2 className="text-2xl font-bold ">Contact Me</h2>
-      <div className="flex flex-col justify-start gap-1">
+      <div className="flex flex-col items-center sm:items-start gap-1">
         <a 
           href="https://www.linkedin.com/in/rohit-kumar-114037328/" 
           target="_blank" 

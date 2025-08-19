@@ -19,7 +19,7 @@ function NavBar() {
            <Link href={item.url} scroll={true} className={`flex items-center gap-1 cursor-pointer peer !p-2`}>
             {item.icon}
            </Link>
-           <p className="peer-hover:visible invisible absolute bottom-0">{item?.name}</p>
+           <Link href={item.url} className="peer-hover:visible invisible absolute bottom-0">{item?.name}</Link>
           </span>
         ))}
       </div>
