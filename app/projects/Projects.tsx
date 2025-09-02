@@ -13,6 +13,13 @@ type ProjectType = {
 function Projects() {
   const allProjects: ProjectType[] = [
     {
+      title: "Task Manager",
+      photoUrl: "/task-manager.png",
+      description: "A web application to create, edit, delete, and manage tasks efficiently with status tracking and a user-friendly interface.",
+      techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
+      websiteUrl: "https://task-manager-frontend-6ylm.onrender.com/"
+    },    
+    {
       title: "IMDb Clone",
       photoUrl: "/Imdb.png",
       description: "A full-featured movie database clone with search, ratings, and detailed movie information.",
